@@ -1,39 +1,20 @@
-##  Bank Loan Prediction System using Streamlit
+# LoanPredictorStream
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+LoanPredictorStream is a Streamlit app hosted on AWS EC2, providing quick and efficient predictions for bank loan eligibility using machine learning. Users input their details, and the app utilizes a pre-trained model to predict loan outcomes.
 
-## [Watch Tutorial for this project](https://youtu.be/j54AZjqmCjI)
-<img src="https://github.com/Spidy20/Streamlit_Bank_Loan_Prediction/blob/master/yt_thumbnai.jpg">
+## Features
 
-## Usage:-
+- *User-friendly Interface:* Easily input details such as account information, demographics, and financials.
+- *Loan Prediction:* Utilizes a pre-trained machine learning model for quick and accurate loan predictions.
+- *AWS EC2 Hosting:* Hosted on AWS EC2 for reliable and scalable performance.
 
-- Clone my repository.
-- Open CMD in working directory.
-- Run following command.
+## Getting Started
 
-  ```
-  pip install -r requirements.txt
-  ```
-- `Bank_Loan_Prediction.py` is the main Python file of Streamlit App. 
-- To run app, write following command in CMD.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/LoanPredictorStream.git
 
-  ```
-  streamlit run Bank_Loan_Prediction.py
-  ```
-- `Str_Loan_ML.ipynb` is the notebook file of the Data pre-processing & Machine Learning.
-- `Loan_Data` contains the Dataset of this project.
-- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
+# Install dependencies (if any)
 
-## Screenshots
-
-<img src="https://github.com/Spidy20/Streamlit_Bank_Loan_Prediction/blob/master/sc1.png">
-<img src="https://github.com/Spidy20/Streamlit_Bank_Loan_Prediction/blob/master/sc2.png">
-<img src="https://github.com/Spidy20/Streamlit_Bank_Loan_Prediction/blob/master/sc3.png">
-
-## Just follow☝️ me and Star⭐ my repository 
-
-# [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
-## [Donate me on PayPal(It will inspire me to do more projects)](https://www.paypal.me/spidy1820)
-## [Follow us on Instagram for Machine Learning Guidelines & Path](https://www.instagram.com/machine_learning_hub.ai/)
-## [Buy Python & ML projects for students at lower rate](https://www.instamojo.com/kushalbhavsar1820)
+# Run the application
+streamlit run loan_predictor_app.py
